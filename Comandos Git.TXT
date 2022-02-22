@@ -1,0 +1,31 @@
+Git Bash Here (botão direito): inicia o Git no diretório
+
+git init: inicializa um repositório Git localmente no diretorio
+
+git status: verifica se há arquivos ou modificações no código fora do versionamento
+
+git add "arquivo": adiciona o arquivo ou modificação de códigio ao versionamento
+
+git add . :  adiciona todos os arquivos do diretório (modificações) ao versionamento
+
+git commit -m "mensagem rápida": adiciona um commit (resumo rápido) das mudanças naquele código
+
+git remote add origin URL: mostra ao Git em qual repositório GitHub você vai salvar suas mudanças de código
+
+git push: envia as mudanças ao repositório GitHub
+
+git push --set-upstream origin master: comando dado para executar o git push quando ainda não há uma branch
+
+git reflog: mostra todas as versões do seu código com o ID.
+
+git reset --hard ID: muda seu código para uma versão salva anteriormente
+
+git branch: mostra todas as branchs do seu repositório
+
+git pull: traz para sua máquina local a versão mais recente do código da sua branch principal
+
+git branch NOME: cria uma nova branch
+
+git checkout NOMEdaBRANCH: muda para a branch especificada
+
+git merge NOMEdaBRANCH: une as mudanças da outra branch para sua principal
